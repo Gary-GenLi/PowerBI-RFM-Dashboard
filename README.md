@@ -19,5 +19,5 @@ Monetary Value: How much money a customer spends on purchases
 ## 5.Results
 ![20240805051627](https://github.com/user-attachments/assets/e7c1b598-5ce3-4487-9c72-40f772c787b2)
 ## 6.Lesson Learned
-
-
+20240805045805.png
+![workflow](images/20240805045805.png)
