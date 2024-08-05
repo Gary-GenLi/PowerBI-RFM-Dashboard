@@ -5,7 +5,7 @@
 - [3.KPIs](#3KPIs)
 - [4.Modeling](#4Modeling)
 - [5.Results](#5Results)
-- [6.Lesson Learned](6Lesson-Learned)
+- [6.Lesson Learned](#6Lesson-Learned)
 ## 1.Introduction
 ## 2.ETL Workflow
 ## 3.KPIs
