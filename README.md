@@ -9,6 +9,7 @@
 ## 1.Introduction
 The managements of one retail bank want to know Customer loyalty and their sales contribution by segments defined with RFM methodology. The request is to have a robust and long term production solution which can help Busines – CRM Services department to improve profitability and increase customer loyalty through respective Campaign Planning & Design based on result of analysis. 
 ## 2.ETL Workflow
+![image](https://github.com/user-attachments/assets/60f5fffc-0847-48d5-9678-ff19714972e5)
 ## 3.KPIs
 Recency: How recently a customer has made a purchase
 
