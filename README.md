@@ -11,11 +11,15 @@ The managements of one retail bank want to know Customer loyalty and their sales
 ## 2.ETL Workflow
 ![image](https://github.com/user-attachments/assets/60f5fffc-0847-48d5-9678-ff19714972e5)
 ## 3.KPIs
-Recency: How recently a customer has made a purchase
+**Metrics Creation:** Devised measures to compute total transaction amounts and overall customer counts.
 
-Frequency: How often a customer makes a purchase
+**RFM Analysis:** 
+- Recency: How recently a customer has made a purchase. Scoring: Customers scoring 1 had a recency greater than the 75th percentile; 2 for recency greater than 50th percentile; 3 for greater than 25th, and 4 for the rest. The rationale is that recent transactions indicate a higher likelihood of future engagements.
 
-Monetary Value: How much money a customer spends on purchases
+- Frequency: How often a customer makes a purchase. Scoring: Customers scoring 4 exceed the 75th percentile in frequency; 3 for above 50th percentile; 2 for above 25th, and 1 for the rest. The purchase cycle can influence frequency, and understanding this can drive targeted marketing efforts.
+
+- Monetary Value: How much money a customer spends on purchases. Scoring: Customers scoring 4 surpass the 75th percentile in monetary contributions; 3 for above 50th percentile; 2 for above 25th, and 1 for the rest. The goal is to emphasize high spenders without neglecting consistent, albeit lower-spending, customers.
+
 ## 4.Modeling 
 ![workflow](images/20240805045805.png)
 ## 5.Dashboard
