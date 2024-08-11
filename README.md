@@ -22,4 +22,3 @@ Monetary Value: How much money a customer spends on purchases
 ![workflow](images/20240805045805.png)
 
 
-![20240805045805](https://github.com/user-attachments/assets/db815132-36c7-4123-9b7e-2fce715e9ebf)
