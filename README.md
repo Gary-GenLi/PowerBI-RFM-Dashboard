@@ -20,6 +20,8 @@ The managements of one retail bank want to know Customer loyalty and their sales
 
 - Monetary Value: How much money a customer spends on purchases. Scoring: Customers scoring 4 surpass the 75th percentile in monetary contributions; 3 for above 50th percentile; 2 for above 25th, and 1 for the rest. The goal is to emphasize high spenders without neglecting consistent, albeit lower-spending, customers.
 
+![Segment](https://github.com/user-attachments/assets/1a6c2f20-2609-4f44-840c-df18e691cde9)
+
 ## 4.Modeling 
 ![workflow](images/20240805045805.png)
 ## 5.Dashboard
