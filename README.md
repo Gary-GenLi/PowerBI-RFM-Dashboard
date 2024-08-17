@@ -1,46 +1,69 @@
 # PowerBI-RFM-Dashboard
 
 ## Table of Contents
-- [1.Introduction](#1Introduction)
-- [2.ETL Workflow](#2ETL-Workflow)
-- [3.KPIs](#3KPIs)
-- [4.Modeling](#4Modeling)
-- [5.Dashboard](#5Results)
-- [6.Lesson Learned](#6Lesson-Learned)
+- [1. Introduction](#1-introduction)
+- [2. ETL Workflow](#2-etl-workflow)
+- [3. KPIs](#3-kpis)
+- [4. Modeling](#4-modeling)
+- [5. Dashboard](#5-dashboard)
+- [6. Lessons Learned](#6-lessons-learned)
   
-## 1.Introduction
+## 1. Introduction
 
-The managements of one retail bank want to know Customer loyalty and their sales contribution by segments defined with RFM methodology. The request is to have a robust and long term production solution which can help Busines – CRM Services department to improve profitability and increase customer loyalty through respective Campaign Planning & Design based on result of analysis. 
+The management of a retail bank seeks to evaluate customer loyalty and their contribution to sales by segmenting customers using the **RFM (Recency, Frequency, Monetary)** methodology. The goal is to develop a robust, long-term solution that provides actionable insights for the **Business – CRM Services** department, ultimately enhancing profitability and increasing customer loyalty through targeted campaign planning and design.
 
-## 2.ETL Workflow
+## 2. ETL Workflow
 
-![image](https://github.com/user-attachments/assets/60f5fffc-0847-48d5-9678-ff19714972e5)
+The **ETL (Extract, Transform, Load)** process is integral to the project, ensuring that data is meticulously processed and prepared for analysis.
 
-## 3.KPIs
+![ETL Workflow](https://github.com/user-attachments/assets/60f5fffc-0847-48d5-9678-ff19714972e5)
 
-**Metrics Creation:** Devised measures to compute total transaction amounts and overall customer counts.
+## 3. KPIs
 
-**RFM Analysis:** 
+**Metrics Creation:** Developed measures to calculate total transaction amounts and overall customer counts, forming the basis for the RFM analysis.
 
-- Recency: How recently a customer has made a purchase. Scoring: Customers scoring 1 had a recency greater than the 75th percentile; 2 for recency greater than 50th percentile; 3 for greater than 25th, and 4 for the rest. The rationale is that recent transactions indicate a higher likelihood of future engagements.
+### RFM Analysis: 
 
-- Frequency: How often a customer makes a purchase. Scoring: Customers scoring 4 exceed the 75th percentile in frequency; 3 for above 50th percentile; 2 for above 25th, and 1 for the rest. The purchase cycle can influence frequency, and understanding this can drive targeted marketing efforts.
+- **Recency:** Measures the time elapsed since a customer's last purchase.  
+  **Scoring:**  
+  - Score **1**: Recency > 75th percentile  
+  - Score **2**: Recency > 50th percentile  
+  - Score **3**: Recency > 25th percentile  
+  - Score **4**: Recency ≤ 25th percentile  
+  *Recent transactions are strong indicators of future engagement.*
 
-- Monetary Value: How much money a customer spends on purchases. Scoring: Customers scoring 4 surpass the 75th percentile in monetary contributions; 3 for above 50th percentile; 2 for above 25th, and 1 for the rest. The goal is to emphasize high spenders without neglecting consistent, albeit lower-spending, customers.
+- **Frequency:** Measures how often a customer makes a purchase.  
+  **Scoring:**  
+  - Score **4**: Frequency > 75th percentile  
+  - Score **3**: Frequency > 50th percentile  
+  - Score **2**: Frequency > 25th percentile  
+  - Score **1**: Frequency ≤ 25th percentile  
+  *Understanding purchase frequency can drive effective targeted marketing efforts.*
 
-![Segment](https://github.com/user-attachments/assets/1a6c2f20-2609-4f44-840c-df18e691cde9)
+- **Monetary Value:** Measures the total amount a customer spends.  
+  **Scoring:**  
+  - Score **4**: Monetary Value > 75th percentile  
+  - Score **3**: Monetary Value > 50th percentile  
+  - Score **2**: Monetary Value > 25th percentile  
+  - Score **1**: Monetary Value ≤ 25th percentile  
+  *High spenders are prioritized, while consistent, lower-spending customers are also recognized.*
 
-## 4.Modeling 
+![RFM Segments](https://github.com/user-attachments/assets/1a6c2f20-2609-4f44-840c-df18e691cde9)
 
-![workflow](images/20240805045805.png)
+## 4. Modeling 
 
-## 5.Dashboard
+Data modeling in Power BI was conducted to ensure accurate and efficient analysis of customer data, facilitating the generation of meaningful insights.
 
-Visualize the data and create the dashboard using PowerBI (All data has been replaced with simulated data).
+![Data Modeling Workflow](images/20240805045805.png)
 
-![20240805051627](https://github.com/user-attachments/assets/e7c1b598-5ce3-4487-9c72-40f772c787b2)
+## 5. Dashboard
 
-## 6.Lesson Learned
+The dashboard was created in Power BI, visualizing segmented customer data. This tool allows stakeholders to interpret the analysis easily and make data-driven decisions. *(Note: All data displayed is simulated.)*
 
-RFM (Recency, Frequency, Monetary) analysis in Power BI using DAX is a powerful tool for customer segmentation, enabling businesses to tailor marketing strategies to specific customer groups. By identifying high-value customers, businesses can focus on retention efforts and prevent churn. Targeted marketing campaigns can be designed based on customer behavior, leading to improved engagement and conversion rates. Additionally, RFM analysis aids in resource allocation, product development, and inventory management, ensuring that efforts are directed where they have the most impact. Ultimately, this data-driven approach enhances customer experiences, improves marketing effectiveness, and boosts customer lifetime value (CLV).
+![Dashboard Example](https://github.com/user-attachments/assets/e7c1b598-5ce3-4487-9c72-40f772c787b2)
 
+## 6. Lessons Learned
+
+Conducting **RFM analysis** using **DAX in Power BI** has proven to be an effective approach for customer segmentation. This method allows businesses to tailor their marketing strategies to specific customer segments, focusing on high-value customers to enhance retention and prevent churn. Targeted campaigns based on customer behavior can significantly improve engagement and conversion rates.
+
+Moreover, RFM analysis provides valuable insights for resource allocation, product development, and inventory management, ensuring that efforts are concentrated where they are most effective. Ultimately, this data-driven strategy improves customer experience, enhances marketing efficiency, and increases **Customer Lifetime Value (CLV)**.
