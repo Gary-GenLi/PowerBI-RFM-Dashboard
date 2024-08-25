@@ -14,6 +14,8 @@ The management of a retail bank seeks to evaluate customer loyalty and their con
 
 ## 2. Workflow Diagram
 
+The workflow for the PowerBI-RFM-Dashboard project represents an end-to-end process that includes everything from initial business requirements gathering to the final production delivery and warranty support. This comprehensive approach ensures that the RFM analysis is not only accurate but also actionable, providing stakeholders with valuable insights to enhance customer loyalty and profitability
+
 ![20240824235640](https://github.com/user-attachments/assets/724a63ec-9b7b-4f42-9fb3-1a50915b0676)
 
 ## 3. KPIs
