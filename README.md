@@ -22,7 +22,7 @@ The workflow for the PowerBI-RFM-Dashboard project represents an end-to-end proc
 
 **Metrics Creation:** Developed measures to calculate total transaction amounts and overall customer counts, forming the basis for the RFM analysis.
 
-### RFM Analysis: 
+### RFM Analysis (R-F-M Scoring): 
 
 - **Recency:** Measures the time elapsed since a customer's last purchase.  
   **Scoring:**  
