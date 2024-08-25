@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [1. Introduction](#1-introduction)
-- [2. ETL Workflow](#2-etl-workflow)
+- [2. Workflow Diagram](#2-workflow-diagram)
 - [3. KPIs](#3-kpis)
 - [4. Modeling](#4-modeling)
 - [5. Dashboard](#5-dashboard)
@@ -12,7 +12,7 @@
 
 The management of a retail bank seeks to evaluate customer loyalty and their contribution to sales by segmenting customers using the **RFM (Recency, Frequency, Monetary)** methodology. The goal is to develop a robust, long-term solution that provides actionable insights for the **Business – CRM Services** department, ultimately enhancing profitability and increasing customer loyalty through targeted campaign planning and design.
 
-## 2. ETL Workflow
+## 2. Workflow Diagram
 
 The **ETL (Extract, Transform, Load)** process is integral to the project, ensuring that data is meticulously processed and prepared for analysis.
 
