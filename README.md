@@ -1,4 +1,4 @@
-# PowerBI-RFM-Dashboard
+# RFM-Dashboard-PowerBI
 
 ## Table of Contents
 - [1. Introduction](#1-introduction)
