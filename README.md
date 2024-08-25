@@ -14,9 +14,7 @@ The management of a retail bank seeks to evaluate customer loyalty and their con
 
 ## 2. Workflow Diagram
 
-The **ETL (Extract, Transform, Load)** process is integral to the project, ensuring that data is meticulously processed and prepared for analysis.
-
-![ETL Workflow](https://github.com/user-attachments/assets/60f5fffc-0847-48d5-9678-ff19714972e5)
+![20240824235640](https://github.com/user-attachments/assets/724a63ec-9b7b-4f42-9fb3-1a50915b0676)
 
 ## 3. KPIs
 
